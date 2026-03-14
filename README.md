@@ -1,9 +1,16 @@
 # boto3-scripts
 Python Advance 
+
+
 Q1. Write a python program using boto3 to list all available types of ec2 instances in each region. Make sure the instance type won’t repeat in a region. Put it in a csv with these columns. 
 region,instance_type 
+
+
 Q2. Implement transitive switching using multiple aws accounts. Let you have account A and you have to access account C via account B. Write a step by step process of creating roles and other required things. After all the process completes fetch any AWS resources list from account C. 
+
+
 Q3. Write a python script which will fetch all the regions in which a customer billed for any resources. Or a customer has any resources. 
+
 Q4. AWS Security Best Practices 
 Question: 
 Your company is looking to improve its AWS security posture by ensuring the following best practices are implemented across the AWS environment: 
@@ -24,6 +31,8 @@ IAMRoleName, Policy Name (only those which have AdministratorAccess)
 IAMUserName, MFAEnabled (all users MFA status either True/False) 
 ● for 3rd check (eg. Security Group have inbound 0.0.0.0/0 allowed for ports 22,80,443) 
 SGName, Port, AllowedIP 
+
+
 Q5. Cost Optimization for an AWS Environment 
 Your company is running multiple AWS services (EC2, RDS, Lambda, and S3) in a development account, and you have been asked to perform cost optimization by identifying unused or underutilized resources. 
 Create a Python script using Boto3 to: 
